@@ -25,7 +25,7 @@ spec:
               topologyKey: "kubernetes.io/hostname"
       containers:
       - name: hadoop-node
-        image: cclient/hadoop:2.8.3-datanode
+        image: 172.20.101.40:6000/cclient/hadoop:2.8.3-datanode
 #        imagePullPolicy: Always
         imagePullPolicy: IfNotPresent
         ports:
